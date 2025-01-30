@@ -20,3 +20,7 @@ on arch linux based-distros:
 ```bash
 sudo pacman -S fortune-mod
 ```
+on macOS:
+```bash
+brew install cowsay fortune
+```
