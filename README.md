@@ -18,9 +18,13 @@ sudo dnf install cowsay fortune-mod
 ```
 on arch linux based-distros:
 ```bash
-sudo pacman -S fortune-mod
+sudo pacman -S cowsay fortune-mod
 ```
 on macOS:
 ```bash
 brew install cowsay fortune
 ```
+## flags
+this program currently has 4 flags:
+--help, --skip_nt_error, --tux and --cow. the tux and cow command replaces the stegosaurus in the tkinter window. And the --skip_nt_error flag skips the error that you would get if you ran this program on windows
+
